@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #393a3b;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 60%;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+}
+
+nav {
+    display: flex;
+    background-color: #1a1a1d;
+    position: relative;
+    min-height: 50px;
+    border: 1px solid aquamarine;
+    justify-content: space-between;
+}
+#ulNav {
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.divLogo {
+    height: auto;
+    padding: 37px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid yellowgreen;
+}
+
+.logoNav {
+    display: flex;
+    vertical-align: middle;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid gray;
+}
+
+.divNav {
+    border-color: #1a1a1d;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+    border: 1px solid skyblue;
+}
+
+.divNav>ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid green;
+}
+
+.divNav>ul>li {
+    position: relative;
+    display: flex;
+    border: 1px solid yellow;
+}
+
+.navButton {
+
+}
+
+.icone {
+    display: flex;
+    height: 65px;
+    width: 65px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.navText {
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 10px;
+    color: white;
+    border: 1px solid blue;
+}
